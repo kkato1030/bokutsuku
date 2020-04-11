@@ -1,0 +1,20 @@
+{
+  "name": "bokutsuku",
+  "version": "0.0.1",
+  "description": "This is my Web Log. I make blog and me.",
+  "main": "index.js",
+  "authors": {
+    "name": "kkato1030",
+    "email": "bsk.wisteria00@gmail.com"
+  },
+  "repository": "https://github.com/kkato1030/bokutsuku/bokutsuku",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.3.1",
+    "@vuepress/theme-blog": "^2.1.0"
+  }
+}

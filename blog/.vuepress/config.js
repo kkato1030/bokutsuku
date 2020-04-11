@@ -1,17 +1,11 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
-  theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  title: 'ぼくをつくるばしょ。',
+  description: 'I make blog and me.',
+  theme: '@vuepress/blog',
   themeConfig: {
-    /**
-     * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
-     */
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
-    /**
-     * Ref: https://vuepress-theme-blog.ulivz.com/#nav
-     */
     nav: [
       {
         text: 'Blog',
@@ -22,28 +16,25 @@ module.exports = {
         link: '/tag/',
       },
     ],
-    /**
-     * Ref: https://vuepress-theme-blog.ulivz.com/#footer
-     */
     footer: {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
+          link: 'https://github.com/kkato1030',
         },
         {
-          type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          type: 'facebook',
+          link: 'https://www.facebook.com/bsk00wisteria',
         },
       ],
       copyright: [
+        // {
+        //   text: 'Privacy Policy',
+        //   link: 'https://policies.google.com/privacy?hl=en-US',
+        // },
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-          link: '',
+          text: 'Copyright © 2020 bokutsuku.',
+          link: '/',
         },
       ],
     },
